@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Web Scraping App</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <form action="/scrape" method="get">
+      <label for="url">URL:</label>
+      <input type="text" id="url" name="url" /><br />
+
+      <label for="count">Count:</label>
+      <input type="text" id="count" name="count" /><br />
+
+      <button type="submit">Scrape</button>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
